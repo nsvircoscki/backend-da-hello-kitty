@@ -1,12 +1,12 @@
 package model;
 
 public class Produto {
-    private int id;
+    private Long id;
     private String nome;
     private Double preco;
     private int quantidade;
 
-    public Produto(int id, String nome, Double preco, int quantidade) {
+    public Produto(Long id, String nome, Double preco, int quantidade) {
         this.id = id;
         setNome(nome);
         setPreco(preco);
@@ -17,7 +17,7 @@ public class Produto {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
