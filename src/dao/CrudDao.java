@@ -9,7 +9,5 @@ public interface CrudDao <T, ID>{
     Optional<T> buscarPorId(ID id) throws SQLException;
     List<T> listarTodos() throws SQLException;
     boolean atualizar(T entidade) throws SQLException;
-    boolean excluir();
-
     boolean excluir(Long i) throws SQLException;
 }

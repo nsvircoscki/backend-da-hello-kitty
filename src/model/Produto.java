@@ -13,7 +13,7 @@ public class Produto {
         setQuantidade(quantidade);
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
